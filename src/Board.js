@@ -12,7 +12,7 @@ class Board extends Component {
 
             isPlayersTurn: true,
 
-            board: Array(9).fill(""),
+            board: ["", "", "", "", "", "", "", "", ""],
             newGameButton: "disabled",
             buttonColor: "primary"
         };
@@ -20,7 +20,7 @@ class Board extends Component {
 
     newGame() {
         this.setState({
-            board: Array(9).fill(""),
+            board: ["", "", "", "", "", "", "", "", ""],
             newGameButton: "disabled"
         });
     }
